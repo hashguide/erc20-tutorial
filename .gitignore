@@ -1,0 +1,8 @@
+# mnemonic
+.secret
+
+# project dependencies
+node_modules/
+
+# truffle build files
+build/
