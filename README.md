@@ -14,5 +14,6 @@ _This tutorial will be using `yarn` to manage dependencies but `npm` can be used
 
 #### Create new directory for project & **cd** into it.
 `mkdir HashGuideCoin && cd "$_"`
+
 #### Initialize project with `yarn init -y` & initialize `truffle init` project.
 `yarn init -y && truffle init`
