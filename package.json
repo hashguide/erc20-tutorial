@@ -2,5 +2,9 @@
   "name": "erc20-yt",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
+    "@truffle/hdwallet-provider": "^1.2.1"
+  }
 }
