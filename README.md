@@ -55,16 +55,16 @@ $ `code /path/to/project`
 _We will be configuring truffle within our project with the ability to deploy to a live network (Live Test networks such as: Sokol, Ropsten, Kovan, etc || Main Networks such as: Ethereum, POA Core, Binance Smart Chain, etc) using truffle's HDWallet-Provider AND with the ability to use a local javascript-based EVM development network, provided by 'ganache-cli' running in the terminal._
 -  open **truffle-config.js** in code editor
 
-**Configuration used for this tutorial**
-![https://github.com/hashguide/erc20-tutorial/tree/master/code-images/truffle-config.js.png](Image of truffle's configuration to deploy HashGuideCoin on POA's Sokol Test Network)
+**Configuration used for this tutorial**\
+![Image of truffle's configuration to deploy HashGuideCoin on POA's Sokol Test Network](https://github.com/hashguide/erc20-tutorial/blob/master/code-images/truffle-config.js.png?raw=true)
 
 ## Writing our smart contract
 _Smart Contracts in this tutorial will be written in the programming language called 'Solidity'. This being said, we need to make sure our contracts have the '.sol' file extension to be recognized._
 
 -  Create a new file in the `contracts` directory within the root of our project. Name this file according the the contract type it will be, mine being `HashGuideCoin.sol` - Let's get started!
 
-**HashGuideCoin contract**
-![https://github.com/hashguide/erc20-tutorial/tree/master/code-images/HashGuideCoin.sol.png](HashGuideCoin.sol contract image of code to deploy HashGuideCoin ERC20 Token)
+**HashGuideCoin contract**\
+![Image of code for HashGuideCoin contract to deploy ERC20 Token to POA's Sokol Test Network](https://github.com/hashguide/erc20-tutorial/blob/master/code-images/HashGuideCoin.sol.png?raw=true)
 
 _Constructor arguments are required to deploy this ERC20 contract. We can find these inside '@openzeppelin/contracts/token/ERC20/ERC20.sol'_
 
@@ -73,7 +73,7 @@ _Constructor arguments are required to deploy this ERC20 contract. We can find t
 Example: 1_initial_migrations.js, 2_deploy_contracts.js would run in that exact order.
 
 **Deployment script for 'HashGuideCoin' contract**
-![https://github.com/hashguide/erc20-tutorial/tree/master/code-images/1_deploy_contracts.js.png](1_deploy_contracts.js script image to deploy HashGuideCoin ERC20 Token)
+![Image of code for deployment scripts to deploy HashGuideCoin ERC20 token to POA's Sokol Test Network](https://github.com/hashguide/erc20-tutorial/blob/master/code-images/1_deploy_contracts.js.png?raw=true)
 
 ## Interacting with deployed contract
 
