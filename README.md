@@ -104,11 +104,14 @@ _Smart Contracts in this tutorial will be written in the programming language ca
 
 1. Create a new file in the `contracts` directory within the root of our project. Name this file according the the contract type it will be, mine being `HashGuideCoin.sol` - Let's get started!
 
+**HashGuideCoin contract**
 ```
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.0 <0.9.0;
+
 // Import ERC20 contract from openzeppelin package
-import "../node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "../node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol"
+
+pragma solidity >=0.4.0 <0.9.0
 
 contract HashGuideCoin is ERC20 {
     constructor () public ERC20("HashGuideCoin", "HGC") {
@@ -117,6 +120,19 @@ contract HashGuideCoin is ERC20 {
 }
 ```
 _Constructor arguments are required to deploy this ERC20 contract. We can find these inside '@openzeppelin/contracts/token/ERC20/ERC20.sol'_
+
+## Creating deploy script
+- Create new file inside the 'migrations' folder & name it '1_deploy_contracts.js'. Scripts inside the 'migrations' folder are run in numerical order. If you need additional scripts run during deployment, name them accordingly.\
+Example: 1_initial_migrations.js, 2_deploy_contracts.js would run in that exact order.
+
+**Deployment script for 'HashGuideCoin' contract**
+```
+const HashGuideCoin = artifacts.require("./HashGuideCoin.sol");
+
+module.exports = function(deployer) {
+    deployer.deploy(HashGuideCoin);
+};
+```
 
 ## Interacting with deployed contract
 
