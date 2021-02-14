@@ -136,4 +136,4 @@ module.exports = function(deployer) {
 
 ## Interacting with deployed contract
 
-_**Stay tuned to @hashguide YouTube for upcoming tutorial on interacting with contracts using a few different methods. For now, head on over to [truffle-console.js](https://github.com/hashguide/erc20-tutorial/tree/master/tutorial-notes/truffle-config.js) for a brief explanation on using 'truffle console' to interact with newly deployed ERC20 token.**_
+_**Stay tuned to @hashguide YouTube for upcoming tutorial on interacting with contracts using a few different methods. For now, head on over to [truffle-console.js](https://github.com/hashguide/erc20-tutorial/blob/master/tutorial-notes/truffle-console.js) for a brief explanation on using 'truffle console' to interact with newly deployed ERC20 token.**_
