@@ -1,4 +1,6 @@
 # ERC20 Fungible Token Deployment for Beginners
+## <p align="center">:warning:</p>
+> If you would like to follow along with the video lesson, please visit [TheCryptoist.com](https://www.thecryptoist.com/) and find the tutorial for this lesson, the video can be found at the bottom. You can also check out [YouTube.com/hashguide](https://www.YouTube.com/hashguide/) to subscribe and never miss another lesson again. <p align="center">:star: Thank you! :star:</p>
 
 _**Deployment to POA's Sokol Live Test Network using the Truffle environment and OpenZeppelin library of well-established Smart Contracts.**_
 
